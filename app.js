@@ -3,7 +3,7 @@ console.log('Hello World!')
 var yname=prompt("what is your name");
 const mname="Levi Haynie"
 function showGreeting(name){
-console.log("Hello,"+name+" my name is "+mname+"! Welcome to my portfolio!")
+console.log("Hello, "+name+" my name is "+mname+"! Welcome to my portfolio!")
 document.getElementById("work").innerHTML="Hello,"+name+" my name is "+mname+"! Welcome to my portfolio!"
 }
 showGreeting(yname)
